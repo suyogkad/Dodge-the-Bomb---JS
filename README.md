@@ -12,7 +12,7 @@ You can play the game right now by visiting the following link: [Play Dodge the 
 
 1. **Objective:** Dodge the falling bombs and survive as long as possible.
 
-2. **Controls:** Use the left and right arrow keys to move your player left and right.
+2. **Controls:** Use the left, right, up, down arrow keys to move your player left and right.
 
 3. **Health:** You start with 3 lives. If a bomb hits you, you lose 1 life. If you lose all 3 lives, the game is over.
 
