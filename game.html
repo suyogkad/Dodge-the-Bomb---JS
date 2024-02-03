@@ -1,52 +1,37 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Assignment 2</title>
-		<link rel="stylesheet" href="game.css" />
-		<script src="game.js"></script>
-	</head>
+  <head>
+    <title>Dodge The Bomb</title>
+    <link rel="stylesheet" href="game.css" />
+    <script src="game.js"></script>
+  </head>
 
-	<body>
+  <body>
+    <div class="hud">
+      <ul id="health">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
 
-		<div class="hud">
-			<ul id="health">
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-		</div>
+    <div id="start">
+      <a href="#" onclick="gameLoop()">Start</a>
+    </div>
 
-		<div id="start">
-			<a href="#" onclick="gameLoop()">Start</a> 
-		</div>
+    <div id="score" class="score"></div>
 
-		<div id="score" class="score"></div>
- 
-		<div id="explosions">
+    <div id="explosions"></div>
+    <div id="gameOver"></div>
+    <div class="sky"></div>
+    <div id="bombs"></div>
 
-		</div>
-		<div id="gameOver">
+    <div id="player" class="character stand down">
+      <div class="head"></div>
 
-		</div>
-		<div class="sky">
-		</div>
-		<div id="bombs">
+      <div class="body"></div>
 
-		</div>
-
-
-		<div id="player" class="character stand down">
-			<div class="head">
-			</div>
-
-			<div class="body">
-			</div>
-
-			<div class="weapon bow">
-			</div>
-		</div>
-
-
-
-	</body>
+      <div class="weapon bow"></div>
+    </div>
+  </body>
 </html>
