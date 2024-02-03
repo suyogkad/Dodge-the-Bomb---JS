@@ -6,7 +6,7 @@ Welcome to Dodge the Bomb, a simple and addictive JavaScript game! Test your ref
 
 You can play the game right now by visiting the following link: [Play Dodge the Bomb](https://suyogkad.github.io/Dodge-the-Bomb---JS/)
 
-![Game Screenshot](Screenshot.png)
+![Game Screenshot](./images/Screenshot.png)
 
 ## How to Play
 
